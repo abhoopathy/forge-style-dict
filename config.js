@@ -22,7 +22,15 @@ export default {
         options: {
           outputReferences: true
         }
-      }],
+      },
+      {
+        destination: 'tokens.css',
+        format: 'css/variables',
+        options: {
+          outputReferences: true
+        }
+      }
+    ],
       transforms: ['name/kebab', 'cleanName']
     }
   }

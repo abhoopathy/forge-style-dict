@@ -1,0 +1,23 @@
+{
+  "name": "forge-style-dict",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Syncing Style Tokens Between Figma",
+  "homepage": "https://github.com/abhoopathy/forge-style-dict#readme",
+  "bugs": {
+    "url": "https://github.com/abhoopathy/forge-style-dict/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhoopathy/forge-style-dict.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "main": "config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "style-dictionary": "^4.3.3"
+  }
+}

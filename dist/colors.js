@@ -202,4 +202,13 @@ module.exports = {
   "midnight-shade-7": "#100b0f",
   "midnight-shade-8": "#0b080a",
   "midnight-shade-9": "#050405",
+  "color-table-header-background-color": "#c6bdde",
+  "color-accent-text-color": "#f24e27",
+  "color-cta-text-color": "#f3f4f9",
+  "color-border-color": "#ebe9ea",
+  "color-secondary-cta-bg-color": "#f68e58",
+  "color-cta-bg-color": "#f24e27",
+  "color-table-background-color": "#ece9f4",
+  "color-background-color": "#fefefe",
+  "color-text-color": "#362632",
 };

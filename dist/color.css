@@ -202,4 +202,13 @@
   --accent-text-color: var(--primary);
   --table-header-background-color: var(--tertiary-tint-7);
   --cta-text-color: var(--light-color);
+  --color-table-header-background-color: var(--tertiary-tint-7);
+  --color-accent-text-color: var(--primary);
+  --color-cta-text-color: var(--light-color);
+  --color-border-color: var(--dark-color-tint-9);
+  --color-secondary-cta-bg-color: var(--secondary);
+  --color-cta-bg-color: var(--primary);
+  --color-table-background-color: var(--tertiary-tint-9);
+  --color-background-color: var(--light-color-tint-9);
+  --color-text-color: var(--dark-color);
 }

@@ -15,7 +15,7 @@
   "author": "",
   "main": "config.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "style-dictionary build"
   },
   "dependencies": {
     "style-dictionary": "^4.3.3"

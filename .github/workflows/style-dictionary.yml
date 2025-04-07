@@ -33,6 +33,6 @@ jobs:
         git config --local user.name "GitHub Action"
         git add dist/ package-lock.json
         git diff --quiet && git diff --staged --quiet || (git commit -m "Update design tokens" && git push) 
-        - name: Commit and push if changed
+
 env:
   GITHUB_TOKEN: ${{ secrets.TOKEN }}

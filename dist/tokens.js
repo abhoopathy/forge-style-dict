@@ -3856,7 +3856,7 @@ module.exports = {
     value: {
       fontFamily: "GT Haptik",
       fontWeight: "Medium",
-      lineHeight: "136%",
+      lineHeight: "104%",
       fontSize: "8",
       letterSpacing: "5%",
       paragraphSpacing: "6",
@@ -3871,7 +3871,7 @@ module.exports = {
       value: {
         fontFamily: "{fontFamilies.gt-haptik}",
         fontWeight: "{fontWeights.gt-haptik-3}",
-        lineHeight: "{lineHeights.0}",
+        lineHeight: "{lineHeights.2}",
         fontSize: "{fontSize.0}",
         letterSpacing: "{letterSpacing.1}",
         paragraphSpacing: "{paragraphSpacing.2}",
@@ -3891,7 +3891,7 @@ module.exports = {
     value: {
       fontFamily: "GT Haptik",
       fontWeight: "Medium",
-      lineHeight: "24",
+      lineHeight: "104%",
       fontSize: "15",
       letterSpacing: "5%",
       paragraphSpacing: "4",
@@ -3906,7 +3906,7 @@ module.exports = {
       value: {
         fontFamily: "{fontFamilies.gt-haptik}",
         fontWeight: "{fontWeights.gt-haptik-3}",
-        lineHeight: "{lineHeights.3}",
+        lineHeight: "{lineHeights.2}",
         fontSize: "{fontSize.3}",
         letterSpacing: "{letterSpacing.1}",
         paragraphSpacing: "{paragraphSpacing.1}",

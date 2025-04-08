@@ -247,6 +247,6 @@
   --table-background-color: var(--tertiary-tint-9);
   --background-color: var(--light-color-tint-9);
   --text-color: var(--dark-color);
-  --text-accent-sm: var(--font-weights-gt-haptik-3) var(--font-size-0)/var(--line-heights-0) 'var(--font-families-gt-haptik)';
-  --text-accent-md: var(--font-weights-gt-haptik-3) var(--font-size-3)/var(--line-heights-3) 'var(--font-families-gt-haptik)';
+  --text-accent-sm: var(--font-weights-gt-haptik-3) var(--font-size-0)/var(--line-heights-2) 'var(--font-families-gt-haptik)';
+  --text-accent-md: var(--font-weights-gt-haptik-3) var(--font-size-3)/var(--line-heights-2) 'var(--font-families-gt-haptik)';
 }

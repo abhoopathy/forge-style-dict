@@ -3,15 +3,6 @@
  */
 
 module.exports = {
-  "text-color": "#362632",
-  "background-color": "#fefefe",
-  "cta-bg-color": "#f24e27",
-  "secondary-cta-bg-color": "#f68e58",
-  "border-color": "#ebe9ea",
-  "table-background-color": "#ece9f4",
-  "accent-text-color": "#f24e27",
-  "table-header-background-color": "#c6bdde",
-  "cta-text-color": "#f3f4f9",
   primary: "#f24e27",
   "primary-tint-1": "#f3603d",
   "primary-tint-2": "#f57152",

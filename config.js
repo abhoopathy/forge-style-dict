@@ -1,7 +1,5 @@
 import StyleDictionary from 'style-dictionary';
 
-
-
 StyleDictionary.registerParser({
   name: 'figma-json-fixer',
   pattern: /\.json$/,
@@ -33,52 +31,24 @@ export default {
     scss: {
       transformGroup: 'scss',
       buildPath: 'dist/',
-      files: [{
-        destination: 'tokens.scss',
-        format: 'scss/variables',
-        options: {
-          outputReferences: true
+      files: [
+        {
+          destination: 'tokens.css',
+          format: 'css/variables',
+          options: {
+            outputReferences: true
+          },
         }
-      },
-      {
-        destination: 'color.css',
-        format: 'css/variables',
-        options: {
-          outputReferences: true
-        },
-        filter: (token) => token.type === 'color'
-      },
-      {
-        destination: 'tokens.css',
-        format: 'css/variables',
-        options: {
-          outputReferences: true
-        },
-        transforms: ['typography/css/shorthand'],
-        filter: (token) => token.type !== 'color'
-      },
-      {
-        destination: 'all.css',
-        format: 'css/variables',
-        options: {
-          outputReferences: true
-        },
-      }
       ],
       transforms: ['typography/css/shorthand']
     },
     js: {
       buildPath: 'dist/',
-      files: [{
-        destination: 'colors.js',
-        format: 'javascript/module-flat',
-        filter: (token) => token.type === 'color'
-      },
-      {
-        destination: 'tokens.js',
-        format: 'javascript/module',
-        filter: (token) => token.type === 'color'
-      },
+      files: [
+        {
+          destination: 'tokens.js',
+          format: 'javascript/module'
+        },
       ],
       transforms: ['attribute/cti', 'content/quote', 'name/kebab', 'size/rem', 'color/hex'],
     }

@@ -3992,4 +3992,109 @@ module.exports = {
       path: ["paragraphIndent", "0"],
     },
   },
+  sm: {
+    value: "6",
+    type: "spacing",
+    filePath: "tokens.json",
+    isSource: true,
+    original: {
+      value: "6",
+      type: "spacing",
+    },
+    name: "sm",
+    attributes: {
+      category: "sm",
+    },
+    path: ["sm"],
+  },
+  xs: {
+    value: "3",
+    type: "spacing",
+    filePath: "tokens.json",
+    isSource: true,
+    original: {
+      value: "3",
+      type: "spacing",
+    },
+    name: "xs",
+    attributes: {
+      category: "xs",
+    },
+    path: ["xs"],
+  },
+  md: {
+    value: "12",
+    type: "spacing",
+    filePath: "tokens.json",
+    isSource: true,
+    original: {
+      value: "12",
+      type: "spacing",
+    },
+    name: "md",
+    attributes: {
+      category: "md",
+    },
+    path: ["md"],
+  },
+  lg: {
+    value: "24",
+    type: "spacing",
+    filePath: "tokens.json",
+    isSource: true,
+    original: {
+      value: "24",
+      type: "spacing",
+    },
+    name: "lg",
+    attributes: {
+      category: "lg",
+    },
+    path: ["lg"],
+  },
+  xl: {
+    value: "36",
+    type: "spacing",
+    filePath: "tokens.json",
+    isSource: true,
+    original: {
+      value: "36",
+      type: "spacing",
+    },
+    name: "xl",
+    attributes: {
+      category: "xl",
+    },
+    path: ["xl"],
+  },
+  "2xl": {
+    value: "48",
+    type: "spacing",
+    filePath: "tokens.json",
+    isSource: true,
+    original: {
+      value: "48",
+      type: "spacing",
+    },
+    name: "2xl",
+    attributes: {
+      category: "2xl",
+    },
+    path: ["2xl"],
+  },
+  "3xl": {
+    value: "72",
+    type: "spacing",
+    filePath: "tokens.json",
+    isSource: true,
+    original: {
+      value: "72",
+      type: "spacing",
+    },
+    name: "3xl",
+    attributes: {
+      category: "3xl",
+    },
+    path: ["3xl"],
+  },
 };

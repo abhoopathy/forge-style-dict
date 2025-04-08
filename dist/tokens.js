@@ -2853,150 +2853,139 @@ module.exports = {
     },
     path: ["Midnight-Shade-9"],
   },
-  Color: {
-    "Table Header Background Color": {
-      value: "#c6bdde",
+  "Table Header Background Color": {
+    value: "#c6bdde",
+    type: "color",
+    filePath: "tokens.json",
+    isSource: true,
+    original: {
+      value: "{Tertiary-Tint-7}",
       type: "color",
-      filePath: "tokens.json",
-      isSource: true,
-      original: {
-        value: "{Tertiary-Tint-7}",
-        type: "color",
-      },
-      name: "color-table-header-background-color",
-      attributes: {
-        category: "Color",
-        type: "Table Header Background Color",
-      },
-      path: ["Color", "Table Header Background Color"],
     },
-    "Accent Text Color": {
-      value: "#f24e27",
+    name: "table-header-background-color",
+    attributes: {
+      category: "Table Header Background Color",
+    },
+    path: ["Table Header Background Color"],
+  },
+  "Accent Text Color": {
+    value: "#f24e27",
+    type: "color",
+    filePath: "tokens.json",
+    isSource: true,
+    original: {
+      value: "{Primary}",
       type: "color",
-      filePath: "tokens.json",
-      isSource: true,
-      original: {
-        value: "{Primary}",
-        type: "color",
-      },
-      name: "color-accent-text-color",
-      attributes: {
-        category: "Color",
-        type: "Accent Text Color",
-      },
-      path: ["Color", "Accent Text Color"],
     },
-    "CTA Text Color": {
-      value: "#f3f4f9",
+    name: "accent-text-color",
+    attributes: {
+      category: "Accent Text Color",
+    },
+    path: ["Accent Text Color"],
+  },
+  "CTA Text Color": {
+    value: "#f3f4f9",
+    type: "color",
+    filePath: "tokens.json",
+    isSource: true,
+    original: {
+      value: "{LightColor}",
       type: "color",
-      filePath: "tokens.json",
-      isSource: true,
-      original: {
-        value: "{LightColor}",
-        type: "color",
-      },
-      name: "color-cta-text-color",
-      attributes: {
-        category: "Color",
-        type: "CTA Text Color",
-      },
-      path: ["Color", "CTA Text Color"],
     },
-    "Border Color": {
-      value: "#ebe9ea",
+    name: "cta-text-color",
+    attributes: {
+      category: "CTA Text Color",
+    },
+    path: ["CTA Text Color"],
+  },
+  "Border Color": {
+    value: "#ebe9ea",
+    type: "color",
+    filePath: "tokens.json",
+    isSource: true,
+    original: {
+      value: "{DarkColor-Tint-9}",
       type: "color",
-      filePath: "tokens.json",
-      isSource: true,
-      original: {
-        value: "{DarkColor-Tint-9}",
-        type: "color",
-      },
-      name: "color-border-color",
-      attributes: {
-        category: "Color",
-        type: "Border Color",
-      },
-      path: ["Color", "Border Color"],
     },
-    "Secondary CTA BG Color": {
-      value: "#f68e58",
+    name: "border-color",
+    attributes: {
+      category: "Border Color",
+    },
+    path: ["Border Color"],
+  },
+  "Secondary CTA BG Color": {
+    value: "#f68e58",
+    type: "color",
+    filePath: "tokens.json",
+    isSource: true,
+    original: {
+      value: "{Secondary}",
       type: "color",
-      filePath: "tokens.json",
-      isSource: true,
-      original: {
-        value: "{Secondary}",
-        type: "color",
-      },
-      name: "color-secondary-cta-bg-color",
-      attributes: {
-        category: "Color",
-        type: "Secondary CTA BG Color",
-      },
-      path: ["Color", "Secondary CTA BG Color"],
     },
-    "CTA BG Color": {
-      value: "#f24e27",
+    name: "secondary-cta-bg-color",
+    attributes: {
+      category: "Secondary CTA BG Color",
+    },
+    path: ["Secondary CTA BG Color"],
+  },
+  "CTA BG Color": {
+    value: "#f24e27",
+    type: "color",
+    filePath: "tokens.json",
+    isSource: true,
+    original: {
+      value: "{Primary}",
       type: "color",
-      filePath: "tokens.json",
-      isSource: true,
-      original: {
-        value: "{Primary}",
-        type: "color",
-      },
-      name: "color-cta-bg-color",
-      attributes: {
-        category: "Color",
-        type: "CTA BG Color",
-      },
-      path: ["Color", "CTA BG Color"],
     },
-    "Table Background Color": {
-      value: "#ece9f4",
+    name: "cta-bg-color",
+    attributes: {
+      category: "CTA BG Color",
+    },
+    path: ["CTA BG Color"],
+  },
+  "Table Background Color": {
+    value: "#ece9f4",
+    type: "color",
+    filePath: "tokens.json",
+    isSource: true,
+    original: {
+      value: "{Tertiary-Tint-9}",
       type: "color",
-      filePath: "tokens.json",
-      isSource: true,
-      original: {
-        value: "{Tertiary-Tint-9}",
-        type: "color",
-      },
-      name: "color-table-background-color",
-      attributes: {
-        category: "Color",
-        type: "Table Background Color",
-      },
-      path: ["Color", "Table Background Color"],
     },
-    "Background Color": {
-      value: "#fefefe",
+    name: "table-background-color",
+    attributes: {
+      category: "Table Background Color",
+    },
+    path: ["Table Background Color"],
+  },
+  "Background Color": {
+    value: "#fefefe",
+    type: "color",
+    filePath: "tokens.json",
+    isSource: true,
+    original: {
+      value: "{LightColor-Tint-9}",
       type: "color",
-      filePath: "tokens.json",
-      isSource: true,
-      original: {
-        value: "{LightColor-Tint-9}",
-        type: "color",
-      },
-      name: "color-background-color",
-      attributes: {
-        category: "Color",
-        type: "Background Color",
-      },
-      path: ["Color", "Background Color"],
     },
-    "Text Color": {
-      value: "#362632",
+    name: "background-color",
+    attributes: {
+      category: "Background Color",
+    },
+    path: ["Background Color"],
+  },
+  "Text Color": {
+    value: "#362632",
+    type: "color",
+    filePath: "tokens.json",
+    isSource: true,
+    original: {
+      value: "{DarkColor}",
       type: "color",
-      filePath: "tokens.json",
-      isSource: true,
-      original: {
-        value: "{DarkColor}",
-        type: "color",
-      },
-      name: "color-text-color",
-      attributes: {
-        category: "Color",
-        type: "Text Color",
-      },
-      path: ["Color", "Text Color"],
     },
+    name: "text-color",
+    attributes: {
+      category: "Text Color",
+    },
+    path: ["Text Color"],
   },
 };

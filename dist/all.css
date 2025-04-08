@@ -237,15 +237,15 @@
   --69: var(--font-weights-gt-haptik-2) var(--font-size-9)/var(--line-heights-2) 'var(--font-families-gt-haptik)';
   --91: var(--font-weights-gt-haptik-2) var(--font-size-10)/var(--line-heights-2) 'var(--font-families-gt-haptik)';
   --120: var(--font-weights-gt-haptik-2) var(--font-size-11)/var(--line-heights-2) 'var(--font-families-gt-haptik)';
-  --color-table-header-background-color: var(--tertiary-tint-7);
-  --color-accent-text-color: var(--primary);
-  --color-cta-text-color: var(--light-color);
-  --color-border-color: var(--dark-color-tint-9);
-  --color-secondary-cta-bg-color: var(--secondary);
-  --color-cta-bg-color: var(--primary);
-  --color-table-background-color: var(--tertiary-tint-9);
-  --color-background-color: var(--light-color-tint-9);
-  --color-text-color: var(--dark-color);
+  --table-header-background-color: var(--tertiary-tint-7);
+  --accent-text-color: var(--primary);
+  --cta-text-color: var(--light-color);
+  --border-color: var(--dark-color-tint-9);
+  --secondary-cta-bg-color: var(--secondary);
+  --cta-bg-color: var(--primary);
+  --table-background-color: var(--tertiary-tint-9);
+  --background-color: var(--light-color-tint-9);
+  --text-color: var(--dark-color);
   --accent-sm: var(--font-weights-gt-haptik-3) var(--font-size-0)/var(--line-heights-0) 'var(--font-families-gt-haptik)';
   --accent: var(--font-weights-gt-haptik-3) var(--font-size-3)/var(--line-heights-3) 'var(--font-families-gt-haptik)';
 }

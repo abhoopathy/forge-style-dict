@@ -193,13 +193,13 @@
   --midnight-shade-7: #100b0f;
   --midnight-shade-8: #0b080a;
   --midnight-shade-9: #050405;
-  --color-table-header-background-color: var(--tertiary-tint-7);
-  --color-accent-text-color: var(--primary);
-  --color-cta-text-color: var(--light-color);
-  --color-border-color: var(--dark-color-tint-9);
-  --color-secondary-cta-bg-color: var(--secondary);
-  --color-cta-bg-color: var(--primary);
-  --color-table-background-color: var(--tertiary-tint-9);
-  --color-background-color: var(--light-color-tint-9);
-  --color-text-color: var(--dark-color);
+  --table-header-background-color: var(--tertiary-tint-7);
+  --accent-text-color: var(--primary);
+  --cta-text-color: var(--light-color);
+  --border-color: var(--dark-color-tint-9);
+  --secondary-cta-bg-color: var(--secondary);
+  --cta-bg-color: var(--primary);
+  --table-background-color: var(--tertiary-tint-9);
+  --background-color: var(--light-color-tint-9);
+  --text-color: var(--dark-color);
 }

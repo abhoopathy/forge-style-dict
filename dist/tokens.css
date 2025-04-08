@@ -38,16 +38,16 @@
   --text-case-uppercase: uppercase;
   --text-decoration-none: none;
   --paragraph-indent-0: 0px;
-  --11: var(--font-weights-gt-haptik-0) var(--font-size-1)/var(--line-heights-0) 'var(--font-families-gt-haptik)';
-  --14: var(--font-weights-gt-haptik-0) var(--font-size-2)/var(--line-heights-0) 'var(--font-families-gt-haptik)';
-  --18: var(--font-weights-gt-haptik-0) var(--font-size-4)/var(--line-heights-0) 'var(--font-families-gt-haptik)';
-  --23: var(--font-weights-gt-haptik-0) var(--font-size-5)/var(--line-heights-0) 'var(--font-families-gt-haptik)';
-  --31: var(--font-weights-gt-haptik-1) var(--font-size-6)/var(--line-heights-1) 'var(--font-families-gt-haptik)';
-  --40: var(--font-weights-gt-haptik-1) var(--font-size-7)/var(--line-heights-2) 'var(--font-families-gt-haptik)';
-  --53: var(--font-weights-gt-haptik-1) var(--font-size-8)/var(--line-heights-2) 'var(--font-families-gt-haptik)';
-  --69: var(--font-weights-gt-haptik-2) var(--font-size-9)/var(--line-heights-2) 'var(--font-families-gt-haptik)';
-  --91: var(--font-weights-gt-haptik-2) var(--font-size-10)/var(--line-heights-2) 'var(--font-families-gt-haptik)';
-  --120: var(--font-weights-gt-haptik-2) var(--font-size-11)/var(--line-heights-2) 'var(--font-families-gt-haptik)';
-  --accent-sm: var(--font-weights-gt-haptik-3) var(--font-size-0)/var(--line-heights-0) 'var(--font-families-gt-haptik)';
-  --accent: var(--font-weights-gt-haptik-3) var(--font-size-3)/var(--line-heights-3) 'var(--font-families-gt-haptik)';
+  --text-xs: var(--font-weights-gt-haptik-0) var(--font-size-1)/var(--line-heights-0) 'var(--font-families-gt-haptik)';
+  --text-sm: var(--font-weights-gt-haptik-0) var(--font-size-2)/var(--line-heights-0) 'var(--font-families-gt-haptik)';
+  --text-default: var(--font-weights-gt-haptik-0) var(--font-size-4)/var(--line-heights-0) 'var(--font-families-gt-haptik)';
+  --text-lg: var(--font-weights-gt-haptik-0) var(--font-size-5)/var(--line-heights-0) 'var(--font-families-gt-haptik)';
+  --text-xl: var(--font-weights-gt-haptik-1) var(--font-size-6)/var(--line-heights-1) 'var(--font-families-gt-haptik)';
+  --text-2xl: var(--font-weights-gt-haptik-1) var(--font-size-7)/var(--line-heights-2) 'var(--font-families-gt-haptik)';
+  --text-3xl: var(--font-weights-gt-haptik-1) var(--font-size-8)/var(--line-heights-2) 'var(--font-families-gt-haptik)';
+  --text-4xl: var(--font-weights-gt-haptik-2) var(--font-size-9)/var(--line-heights-2) 'var(--font-families-gt-haptik)';
+  --text-5xl: var(--font-weights-gt-haptik-2) var(--font-size-10)/var(--line-heights-2) 'var(--font-families-gt-haptik)';
+  --text-6xl: var(--font-weights-gt-haptik-2) var(--font-size-11)/var(--line-heights-2) 'var(--font-families-gt-haptik)';
+  --text-accent-sm: var(--font-weights-gt-haptik-3) var(--font-size-0)/var(--line-heights-0) 'var(--font-families-gt-haptik)';
+  --text-accent-md: var(--font-weights-gt-haptik-3) var(--font-size-3)/var(--line-heights-3) 'var(--font-families-gt-haptik)';
 }

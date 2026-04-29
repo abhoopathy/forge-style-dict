@@ -1,0 +1,736 @@
+{
+  "Media/Desktop": {
+    "Document": {
+      "value": "Desktop",
+      "type": "text"
+    },
+    "media-viewport-width": {
+      "value": 1512,
+      "type": "number"
+    },
+    "media-viewport-height": {
+      "value": 982,
+      "type": "number"
+    },
+    "media-grid-cols": {
+      "value": 12,
+      "type": "number"
+    },
+    "media-grid-gutter": {
+      "value": 24,
+      "type": "number"
+    },
+    "media-col-width": {
+      "value": 80,
+      "type": "number"
+    },
+    "media-row-height": {
+      "value": "{media-col-width}",
+      "type": "number"
+    },
+    "media-grid-rows": {
+      "value": 100000000,
+      "type": "number"
+    },
+    "media-margin-bottom": {
+      "value": 0,
+      "type": "number"
+    },
+    "media-margin-top": {
+      "value": 0,
+      "type": "number"
+    },
+    "media-container-width": {
+      "value": "{media-col-width} * {media-grid-cols} + ({media-grid-cols} -1)* {media-grid-gutter}",
+      "type": "number"
+    },
+    "media-margin-left": {
+      "value": "({media-viewport-width} - {media-container-width} )/2",
+      "type": "number"
+    },
+    "media-paragraph-max-width": {
+      "value": "16 * 30",
+      "type": "number"
+    },
+    "media-margin-right": {
+      "value": "{media-margin-left}",
+      "type": "number"
+    },
+    "Width": {
+      "w-1_2": {
+        "value": "({media-container-width} - ({media-grid-gutter} * (2 - 1))) / 2",
+        "type": "number"
+      },
+      "w-1_2 m:w-full": {
+        "value": "{Width.w-1_2}",
+        "type": "number"
+      },
+      "w-1_3": {
+        "value": "({media-container-width} - ({media-grid-gutter} * (3 - 1))) / 3",
+        "type": "number"
+      },
+      "w-1_3 m:w-full": {
+        "value": "{Width.w-1_3}",
+        "type": "number"
+      },
+      "w-1_4": {
+        "value": "({media-container-width} - ({media-grid-gutter} * (4 - 1)))/4",
+        "type": "number"
+      },
+      "w-1_4 m:w-full": {
+        "value": "{Width.w-1_4}",
+        "type": "number"
+      },
+      "w-3_4": {
+        "value": "({media-container-width} - ({media-grid-gutter} * (1)))/3",
+        "type": "number"
+      },
+      "w-3_4 m:w-full": {
+        "value": "{Width.w-3_4}",
+        "type": "number"
+      },
+      "w-1_5": {
+        "value": "({media-container-width} - ({media-grid-gutter} * (5 - 1)))/5",
+        "type": "number"
+      },
+      "w-1_6": {
+        "value": "({media-container-width} - ({media-grid-gutter} * (6 - 1)))/6",
+        "type": "number"
+      },
+      "w-100vw": {
+        "value": "{media-viewport-width}",
+        "type": "number"
+      },
+      "w-50vw": {
+        "value": "{media-viewport-width}/2",
+        "type": "number"
+      },
+      "w-33vw": {
+        "value": "{media-viewport-width}/4",
+        "type": "number"
+      },
+      "w-25vw": {
+        "value": "{media-viewport-width}/4",
+        "type": "number"
+      }
+    },
+    "Height": {
+      "h-100vh": {
+        "value": "{media-viewport-height}",
+        "type": "number"
+      },
+      "h-90vh": {
+        "value": "{media-viewport-height}*.9",
+        "type": "number"
+      },
+      "h-80vh": {
+        "value": "{media-viewport-height}*.8",
+        "type": "number"
+      },
+      "h-70vh": {
+        "value": "{media-viewport-height}*.7",
+        "type": "number"
+      },
+      "h-60vh": {
+        "value": "{media-viewport-height}*.6",
+        "type": "number"
+      },
+      "h-50vh": {
+        "value": "{media-viewport-height}/2",
+        "type": "number"
+      },
+      "h-40vh": {
+        "value": "{media-viewport-height}*.4",
+        "type": "number"
+      },
+      "h-30vh": {
+        "value": "{media-viewport-height}*.3",
+        "type": "number"
+      },
+      "h-20vh": {
+        "value": "{media-viewport-height}*.2",
+        "type": "number"
+      },
+      "h-10vh": {
+        "value": "{media-viewport-height}*.1",
+        "type": "number"
+      },
+      "h-33vh": {
+        "value": "{media-viewport-height}/3",
+        "type": "number"
+      },
+      "h-66vh": {
+        "value": "{media-viewport-height}*(2/3)",
+        "type": "number"
+      },
+      "h-25vh": {
+        "value": "{media-viewport-height}/4",
+        "type": "number"
+      },
+      "h-75vh": {
+        "value": "{media-viewport-height}*(3/4)",
+        "type": "number"
+      }
+    }
+  },
+  "Media/Mobile": {
+    "Document": {
+      "value": "Mobile",
+      "type": "text"
+    },
+    "media-viewport-width": {
+      "value": 402,
+      "type": "number"
+    },
+    "media-viewport-height": {
+      "value": 874,
+      "type": "number"
+    },
+    "media-grid-cols": {
+      "value": 4,
+      "type": "number"
+    },
+    "media-grid-gutter": {
+      "value": 12,
+      "type": "number"
+    },
+    "media-col-width": {
+      "value": 80,
+      "type": "number"
+    },
+    "media-row-height": {
+      "value": "{media-col-width}",
+      "type": "number"
+    },
+    "media-grid-rows": {
+      "value": 100000000,
+      "type": "number"
+    },
+    "media-margin-bottom": {
+      "value": 0,
+      "type": "number"
+    },
+    "media-margin-top": {
+      "value": 0,
+      "type": "number"
+    },
+    "media-container-width": {
+      "value": "{media-col-width} * {media-grid-cols} + ({media-grid-cols} -1)* {media-grid-gutter}",
+      "type": "number"
+    },
+    "media-margin-left": {
+      "value": "({media-viewport-width} - {media-container-width} )/2",
+      "type": "number"
+    },
+    "media-paragraph-max-width": {
+      "value": "16 * 30",
+      "type": "number"
+    },
+    "media-margin-right": {
+      "value": "{media-margin-left}",
+      "type": "number"
+    },
+    "Width": {
+      "w-1_2": {
+        "value": "({media-container-width} - ({media-grid-gutter} * (2 - 1))) / 2",
+        "type": "number"
+      },
+      "w-1_2 m:w-full": {
+        "value": "{media-container-width}",
+        "type": "number"
+      },
+      "w-1_3": {
+        "value": "({media-container-width} - ({media-grid-gutter} * (3 - 1))) / 3",
+        "type": "number"
+      },
+      "w-1_3 m:w-full": {
+        "value": "{media-container-width}",
+        "type": "number"
+      },
+      "w-1_4": {
+        "value": "({media-container-width} - ({media-grid-gutter} * (4 - 1)))/4",
+        "type": "number"
+      },
+      "w-1_4 m:w-full": {
+        "value": "{media-container-width}",
+        "type": "number"
+      },
+      "w-3_4": {
+        "value": "({media-container-width} - ({media-grid-gutter} * (1)))/3",
+        "type": "number"
+      },
+      "w-3_4 m:w-full": {
+        "value": "{media-container-width}",
+        "type": "number"
+      },
+      "w-1_5": {
+        "value": "({media-container-width} - ({media-grid-gutter} * (5 - 1)))/5",
+        "type": "number"
+      },
+      "w-1_6": {
+        "value": "({media-container-width} - ({media-grid-gutter} * (6 - 1)))/6",
+        "type": "number"
+      },
+      "w-100vw": {
+        "value": "{media-viewport-width}",
+        "type": "number"
+      },
+      "w-50vw": {
+        "value": "{media-viewport-width}/2",
+        "type": "number"
+      },
+      "w-33vw": {
+        "value": "{media-viewport-width}/4",
+        "type": "number"
+      },
+      "w-25vw": {
+        "value": "{media-viewport-width}/4",
+        "type": "number"
+      }
+    },
+    "Height": {
+      "h-100vh": {
+        "value": "{media-viewport-height}",
+        "type": "number"
+      },
+      "h-90vh": {
+        "value": "{media-viewport-height}*.9",
+        "type": "number"
+      },
+      "h-80vh": {
+        "value": "{media-viewport-height}*.8",
+        "type": "number"
+      },
+      "h-70vh": {
+        "value": "{media-viewport-height}*.7",
+        "type": "number"
+      },
+      "h-60vh": {
+        "value": "{media-viewport-height}*.6",
+        "type": "number"
+      },
+      "h-50vh": {
+        "value": "{media-viewport-height}/2",
+        "type": "number"
+      },
+      "h-40vh": {
+        "value": "{media-viewport-height}*.4",
+        "type": "number"
+      },
+      "h-30vh": {
+        "value": "{media-viewport-height}*.3",
+        "type": "number"
+      },
+      "h-20vh": {
+        "value": "{media-viewport-height}*.2",
+        "type": "number"
+      },
+      "h-10vh": {
+        "value": "{media-viewport-height}*.1",
+        "type": "number"
+      },
+      "h-33vh": {
+        "value": "{media-viewport-height}/3",
+        "type": "number"
+      },
+      "h-66vh": {
+        "value": "{media-viewport-height}*(2/3)",
+        "type": "number"
+      },
+      "h-25vh": {
+        "value": "{media-viewport-height}/4",
+        "type": "number"
+      },
+      "h-75vh": {
+        "value": "{media-viewport-height}*(3/4)",
+        "type": "number"
+      }
+    }
+  },
+  "Media/Tablet": {
+    "Document": {
+      "value": "Slide",
+      "type": "text"
+    },
+    "media-viewport-width": {
+      "value": 612,
+      "type": "number"
+    },
+    "media-viewport-height": {
+      "value": 792,
+      "type": "number"
+    },
+    "media-grid-cols": {
+      "value": 8,
+      "type": "number"
+    },
+    "media-grid-gutter": {
+      "value": 12,
+      "type": "number"
+    },
+    "media-col-width": {
+      "value": 57,
+      "type": "number"
+    },
+    "media-row-height": {
+      "value": "{media-col-width}",
+      "type": "number"
+    },
+    "media-grid-rows": {
+      "value": 10,
+      "type": "number"
+    },
+    "media-margin-bottom": {
+      "value": 72,
+      "type": "number"
+    },
+    "media-margin-top": {
+      "value": 92,
+      "type": "number"
+    },
+    "media-container-width": {
+      "value": "{media-col-width} * {media-grid-cols} + ({media-grid-cols} -1)* {media-grid-gutter}",
+      "type": "number"
+    },
+    "media-margin-left": {
+      "value": "({media-viewport-width} - {media-container-width} )/2",
+      "type": "number"
+    },
+    "media-paragraph-max-width": {
+      "value": "16 * 30",
+      "type": "number"
+    },
+    "media-margin-right": {
+      "value": "{media-margin-left}",
+      "type": "number"
+    },
+    "Width": {
+      "w-1_2": {
+        "value": "({media-container-width} - ({media-grid-gutter} * (2 - 1))) / 2",
+        "type": "number"
+      },
+      "w-1_2 m:w-full": {
+        "value": "{Width.w-1_2}",
+        "type": "number"
+      },
+      "w-1_3": {
+        "value": "({media-container-width} - ({media-grid-gutter} * (3 - 1))) / 3",
+        "type": "number"
+      },
+      "w-1_3 m:w-full": {
+        "value": "{Width.w-1_3}",
+        "type": "number"
+      },
+      "w-1_4": {
+        "value": "({media-container-width} - ({media-grid-gutter} * (4 - 1)))/4",
+        "type": "number"
+      },
+      "w-1_4 m:w-full": {
+        "value": "{Width.w-1_4}",
+        "type": "number"
+      },
+      "w-3_4": {
+        "value": "({media-container-width} - ({media-grid-gutter} * (1)))/3",
+        "type": "number"
+      },
+      "w-3_4 m:w-full": {
+        "value": "{Width.w-3_4}",
+        "type": "number"
+      },
+      "w-1_5": {
+        "value": "({media-container-width} - ({media-grid-gutter} * (5 - 1)))/5",
+        "type": "number"
+      },
+      "w-1_6": {
+        "value": "({media-container-width} - ({media-grid-gutter} * (6 - 1)))/6",
+        "type": "number"
+      },
+      "w-100vw": {
+        "value": "{media-viewport-width}",
+        "type": "number"
+      },
+      "w-50vw": {
+        "value": "{media-viewport-width}/2",
+        "type": "number"
+      },
+      "w-33vw": {
+        "value": "{media-viewport-width}/4",
+        "type": "number"
+      },
+      "w-25vw": {
+        "value": "{media-viewport-width}/4",
+        "type": "number"
+      }
+    },
+    "Height": {
+      "h-100vh": {
+        "value": "{media-viewport-height}",
+        "type": "number"
+      },
+      "h-90vh": {
+        "value": "{media-viewport-height}*.9",
+        "type": "number"
+      },
+      "h-80vh": {
+        "value": "{media-viewport-height}*.8",
+        "type": "number"
+      },
+      "h-70vh": {
+        "value": "{media-viewport-height}*.7",
+        "type": "number"
+      },
+      "h-60vh": {
+        "value": "{media-viewport-height}*.6",
+        "type": "number"
+      },
+      "h-50vh": {
+        "value": "{media-viewport-height}/2",
+        "type": "number"
+      },
+      "h-40vh": {
+        "value": "{media-viewport-height}*.4",
+        "type": "number"
+      },
+      "h-30vh": {
+        "value": "{media-viewport-height}*.3",
+        "type": "number"
+      },
+      "h-20vh": {
+        "value": "{media-viewport-height}*.2",
+        "type": "number"
+      },
+      "h-10vh": {
+        "value": "{media-viewport-height}*.1",
+        "type": "number"
+      },
+      "h-33vh": {
+        "value": "{media-viewport-height}/3",
+        "type": "number"
+      },
+      "h-66vh": {
+        "value": "{media-viewport-height}*(2/3)",
+        "type": "number"
+      },
+      "h-25vh": {
+        "value": "{media-viewport-height}/4",
+        "type": "number"
+      },
+      "h-75vh": {
+        "value": "{media-viewport-height}*(3/4)",
+        "type": "number"
+      }
+    }
+  },
+  "Media/Slide": {
+    "Document": {
+      "value": "Slide",
+      "type": "text"
+    },
+    "media-viewport-width": {
+      "value": 1224,
+      "type": "number"
+    },
+    "media-viewport-height": {
+      "value": 792,
+      "type": "number"
+    },
+    "media-grid-cols": {
+      "value": 16,
+      "type": "number"
+    },
+    "media-grid-gutter": {
+      "value": 20,
+      "type": "number"
+    },
+    "media-col-width": {
+      "value": 52,
+      "type": "number"
+    },
+    "media-row-height": {
+      "value": 61,
+      "type": "number"
+    },
+    "media-grid-rows": {
+      "value": 8,
+      "type": "number"
+    },
+    "media-margin-bottom": {
+      "value": 72,
+      "type": "number"
+    },
+    "media-margin-top": {
+      "value": 92,
+      "type": "number"
+    },
+    "media-container-width": {
+      "value": "{media-col-width} * {media-grid-cols} + ({media-grid-cols} -1)* {media-grid-gutter}",
+      "type": "number"
+    },
+    "media-margin-left": {
+      "value": "({media-viewport-width} - {media-container-width} )/2",
+      "type": "number"
+    },
+    "media-paragraph-max-width": {
+      "value": "16 * 30",
+      "type": "number"
+    },
+    "media-margin-right": {
+      "value": "{media-margin-left}",
+      "type": "number"
+    },
+    "Width": {
+      "w-1_2": {
+        "value": "({media-container-width} - ({media-grid-gutter} * (2 - 1))) / 2",
+        "type": "number"
+      },
+      "w-1_2 m:w-full": {
+        "value": "{Width.w-1_2}",
+        "type": "number"
+      },
+      "w-1_3": {
+        "value": "({media-container-width} - ({media-grid-gutter} * (3 - 1))) / 3",
+        "type": "number"
+      },
+      "w-1_3 m:w-full": {
+        "value": "{Width.w-1_3}",
+        "type": "number"
+      },
+      "w-1_4": {
+        "value": "({media-container-width} - ({media-grid-gutter} * (4 - 1)))/4",
+        "type": "number"
+      },
+      "w-1_4 m:w-full": {
+        "value": "{Width.w-1_4}",
+        "type": "number"
+      },
+      "w-3_4": {
+        "value": "({media-container-width} - ({media-grid-gutter} * (1)))/3",
+        "type": "number"
+      },
+      "w-3_4 m:w-full": {
+        "value": "{Width.w-3_4}",
+        "type": "number"
+      },
+      "w-1_5": {
+        "value": "({media-container-width} - ({media-grid-gutter} * (5 - 1)))/5",
+        "type": "number"
+      },
+      "w-1_6": {
+        "value": "({media-container-width} - ({media-grid-gutter} * (6 - 1)))/6",
+        "type": "number"
+      },
+      "w-100vw": {
+        "value": "{media-viewport-width}",
+        "type": "number"
+      },
+      "w-50vw": {
+        "value": "{media-viewport-width}/2",
+        "type": "number"
+      },
+      "w-33vw": {
+        "value": "{media-viewport-width}/4",
+        "type": "number"
+      },
+      "w-25vw": {
+        "value": "{media-viewport-width}/4",
+        "type": "number"
+      }
+    },
+    "Height": {
+      "h-100vh": {
+        "value": "{media-viewport-height}",
+        "type": "number"
+      },
+      "h-90vh": {
+        "value": "{media-viewport-height}*.9",
+        "type": "number"
+      },
+      "h-80vh": {
+        "value": "{media-viewport-height}*.8",
+        "type": "number"
+      },
+      "h-70vh": {
+        "value": "{media-viewport-height}*.7",
+        "type": "number"
+      },
+      "h-60vh": {
+        "value": "{media-viewport-height}*.6",
+        "type": "number"
+      },
+      "h-50vh": {
+        "value": "{media-viewport-height}/2",
+        "type": "number"
+      },
+      "h-40vh": {
+        "value": "{media-viewport-height}*.4",
+        "type": "number"
+      },
+      "h-30vh": {
+        "value": "{media-viewport-height}*.3",
+        "type": "number"
+      },
+      "h-20vh": {
+        "value": "{media-viewport-height}*.2",
+        "type": "number"
+      },
+      "h-10vh": {
+        "value": "{media-viewport-height}*.1",
+        "type": "number"
+      },
+      "h-33vh": {
+        "value": "{media-viewport-height}/3",
+        "type": "number"
+      },
+      "h-66vh": {
+        "value": "{media-viewport-height}*(2/3)",
+        "type": "number"
+      },
+      "h-25vh": {
+        "value": "{media-viewport-height}/4",
+        "type": "number"
+      },
+      "h-75vh": {
+        "value": "{media-viewport-height}*(3/4)",
+        "type": "number"
+      }
+    }
+  },
+  "$themes": [
+    {
+      "name": "Desktop",
+      "$figmaStyleReferences": {},
+      "selectedTokenSets": {
+        "Media/Desktop": "enabled"
+      }
+    },
+    {
+      "name": "Mobile",
+      "$figmaStyleReferences": {},
+      "selectedTokenSets": {
+        "Media/Mobile": "enabled"
+      }
+    },
+        {
+      "name": "Tablet",
+      "$figmaStyleReferences": {},
+      "selectedTokenSets": {
+        "Media/Tablet": "enabled"
+      }
+    },
+        {
+      "name": "Slide",
+      "$figmaStyleReferences": {},
+      "selectedTokenSets": {
+        "Media/Slide": "enabled"
+      }
+    }
+  ],
+  "$metadata": {
+    "tokenSetOrder": [
+      "Media/Desktop",
+      "Media/Mobile",
+      "Media/Document",
+      "Media/Slide"
+    ]
+  }
+}

@@ -1,5 +1,23 @@
 import StyleDictionary from 'style-dictionary';
 
+function deepMerge(target, source) {
+  for (const key of Object.keys(source)) {
+    if (
+      source[key] !== null &&
+      typeof source[key] === 'object' &&
+      !Array.isArray(source[key]) &&
+      target[key] !== null &&
+      typeof target[key] === 'object' &&
+      !Array.isArray(target[key])
+    ) {
+      deepMerge(target[key], source[key]);
+    } else {
+      target[key] = source[key];
+    }
+  }
+  return target;
+}
+
 StyleDictionary.registerParser({
   name: 'figma-json-fixer',
   pattern: /\.json$/,
@@ -9,12 +27,21 @@ StyleDictionary.registerParser({
     // Get all top-level keys that don't start with $
     const keysToFlatten = Object.keys(tokens).filter(key => !key.startsWith('$'));
 
-    // Flatten each non-$ object's children into the main tokens object
+    // Deep-merge each non-$ object's children into the main tokens object
     keysToFlatten.forEach(key => {
       const childTokens = tokens[key];
-      // Copy all children to the top level
       Object.entries(childTokens).forEach(([childKey, value]) => {
-        tokens[childKey] = value;
+        if (
+          tokens[childKey] !== undefined &&
+          typeof tokens[childKey] === 'object' &&
+          !Array.isArray(tokens[childKey]) &&
+          typeof value === 'object' &&
+          !Array.isArray(value)
+        ) {
+          deepMerge(tokens[childKey], value);
+        } else {
+          tokens[childKey] = value;
+        }
       });
       // Remove the original parent key
       delete tokens[key];

@@ -15,7 +15,7 @@
   "author": "",
   "main": "config.js",
   "scripts": {
-    "build": "style-dictionary build"
+    "build": "node build.js"
   },
   "dependencies": {
     "@tokens-studio/tokenscript-interpreter": "^0.34.0",

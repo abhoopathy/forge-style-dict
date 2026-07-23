@@ -25,7 +25,7 @@ jobs:
 
     - name: Process design tokens
       run: |
-        npx style-dictionary build
+        node build.js
 
     - name: Commit and push if changed
       run: |
